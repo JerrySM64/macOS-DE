@@ -10,7 +10,7 @@ Install Nix on your Mac by entering the following command in the terminal:
 Then get the flake by by doing a simple Clone:
 `mkdir ~/.config && git clone https://github.com/jerrysm64/macos-de ~/.config/nix`
 
-Since everything's set up for me, you need to change the hostname and username so they fit for you. This is done in darwin.nix and flake.nix. This step will be simplified at a later date.
+Since everything's set up for me, you need to change the hostname and username so they fit for you. This is done in darwin.nix and flake.nix. Also you need to chage your Git Name and Email in home.nix. This step will be simplified at a later date.
 
 When you have done all that, you're good to go. Execute this command to build the flake and then you are done:
 `nix run nix-darwin -- switch --flake ~/.config/nix`
