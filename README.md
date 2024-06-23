@@ -26,5 +26,5 @@ When you tweaked a few things, you need to rebuild the Flake. To do that, run:
 
 # Credits
 * [Tyler Kelley for making ZaneyOS in the first place](https://gitlab.com/Zaney)
-* [iynaix for helping me debugging a few issues](https://github.com/iynaix)
+* [Lin Xianyi for helping me debugging a few issues](https://github.com/iynaix)
 * [The NixOS Foundation for creating Nix](https://nixos.org)
